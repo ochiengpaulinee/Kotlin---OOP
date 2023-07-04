@@ -1,5 +1,7 @@
+//classes are templates for objects and objects are instances of classes.
+
 fun main(){
-var tesla = Car("tesla", "Y", "KDR 206Y", 0)
+var tesla = Car("tesla", "Y", "KDR 206Y", 20)
     println(tesla.model)
     tesla.start()
     println(tesla.speed)
